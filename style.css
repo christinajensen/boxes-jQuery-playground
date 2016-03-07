@@ -41,3 +41,9 @@
 .boxType3 {
   background: blue;
 }
+
+.puppy {
+  background-image: url(http://stockfresh.com/image/zoom/dca41d/stockfresh_764562);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
