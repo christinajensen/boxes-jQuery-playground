@@ -39,8 +39,8 @@ $(document).ready(function() {
   });
 
   // 3.3
-  $(".box").click(function(e) {
-    $(e.target).toggleClass("puppy");
+  $(".box").on('click', function(e) {
+    $(this).toggleClass("puppy");
   });
 
   // 3.4
