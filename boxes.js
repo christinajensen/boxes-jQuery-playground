@@ -20,6 +20,9 @@ $(document).ready(function() {
   // $("#row2 div:nth-child(1)").removeAttr("style").removeClass("box boxType2");
   // $("#row2 div:nth-child(2)").removeAttr("style").removeClass("box boxType3");
 
+  // a more DRY way of doing it
+  // $("#row2 > div:lt(2)").removeAttr("style").removeClass();
+
   // // 2.6
   // $("#container div:not(.row, #secretBox)").css("width", "2px");
 
